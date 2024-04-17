@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>University Website Design</title>
+    <link rel="stylesheet" href="HSE CSS/contact.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <section class="header">
+      <nav>
+        <a href="index.html"><img src="HSE CSS/images/logo.webp" /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <!--Links to other pages-->
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="course.html">COURSES</a></li>
+            <li><a href="blog.html">BLOG</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+            <li><a href="credits.html">CREDITS</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+</head>
+<body>
+  <!--The Areas where you put in your information-->
+  <div class="contactUs">
+    <div class="box">
+    <div class="contact-container">
+      <form action=https://formspree.io/f/mbjnglqp method="POST" class="contact-left">
+  <div class="contact-left-title">
+    <h2>Get in touch</h2>
+    <hr>
+  </div>
+  <input type="hidden" name="access_key" value="c64c2232-d4d9-4601-ae8e-9a23757a5542">
+  <input type="text" name="name" placeholder="Your Name" class="contact-inputs" required>
+  <input type="number" name="number" placeholder="Your Phone Number" class="contact-inputs" required>
+  <input type="email" name="Email" placeholder="Your Email" class="contact-inputs" required>
+  <textarea name="message" placeholder="Your Message" class="contact-inputs" required></textarea>
+  <button type="submit">Submit <img src="HSE CSS/images/arrow_icon.png" alt=""></button>
+  </form>
+  <div class="contact-right">
+  </div>
+  </div>
+    
+  
+    <!-- Info Box -->
+    <div class="contact info">
+      <h3>Contact Info</h3>
+      <div class="infoBox">
+        <div>
+          <span><ion-icon name="location"></ion-icon></span>
+         <p>Brú Chaoimhín,<br>Cork St,<br>The Liberties,<br>Dublin 8</p>
+        </div>
+        <div>
+          <span><ion-icon name="mail"></ion-icon></span>
+          <a href="mailto:ghis@eve.ie">ghis@eve.ie</a>
+        </div>
+         <div class="container">
+          <span><ion-icon name="call"></ion-icon></span>
+            <ul>
+              <li><a href="tel:(086)6656651">(086)6656651</a></li>
+              <li><a href="tel:(087)4074193">(087)4074193</a></li>
+              <li><a href="tel:(01)4156801">(01)4156801</a></li>
+            </ul>
+          </div>
+        </div>    
+      </div>  
+    <!-- Map -->
+    <div class="contact map">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2382.357959222902!2d-6.286671687490667!3d53.336848172170875!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48670c3c5cdbf93f%3A0x8a2bad9b45e8dffb!2sBr%C3%BA%20Chaoimh%C3%ADn%2C%20Cork%20St%2C%20The%20Liberties%2C%20Dublin%208%2C%208!5e0!3m2!1sen!2sie!4v1706703491428!5m2!1sen!2sie"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  </script>
+  </body>
+</html>
